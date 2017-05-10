@@ -1,0 +1,50 @@
+
+
+
+body {
+  
+	background: #333;
+	text-align: center;
+}
+
+
+
+.loader {
+	margin: 20px auto;
+}
+
+
+.loader .ani {
+	display: inline-block;
+}
+
+
+.loader .ani div {
+	padding: 5px;
+	border-radius: 50%;
+	animation-name: spinna;
+	animation-duration: 4s; /* or: Xms */
+	animation-direction: normal;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease; /* Safari 4.0 - 8.0 */
+    animation-timing-function: ease;
+}
+
+
+
+@keyframes spinna {
+  0%   { 
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	}
+  100% {
+	-moz-transform: rotate(359deg);
+	-webkit-transform: rotate(359deg);
+	-o-transform: rotate(359deg);
+	-ms-transform: rotate(359deg);
+	transform: rotate(359deg);
+	}
+}

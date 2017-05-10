@@ -1,0 +1,22 @@
+h1, h2{
+	text-align: center;
+}
+
+body {
+	background-color:  red;
+}
+
+.tableContainer {
+  display: table;
+  border-spacing: 10px;
+}
+
+.tableRow {
+  display: table-row;
+}
+
+.tableCell {
+  vertical-align: top;
+  display: table-cell;
+}
+

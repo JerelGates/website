@@ -1,0 +1,33 @@
+#octagon {
+	width: 100px;
+	height: 100px;
+	background: gray;
+	position: relative;
+}
+
+#octagon:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom: 29px solid gray;
+	border-left: 29px solid #242729;
+	border-right: 29px solid #242729;;
+	width: 42px;
+	height: 0;
+}
+
+#octagon:after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-top: 29px solid gray;
+	border-left: 29px solid #242729;
+	border-right: 29px solid #242729;
+	width: 42px;
+	height: 0;
+}
+
+a:hover {
+  color: red;
+
+}

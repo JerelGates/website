@@ -1,0 +1,102 @@
+h1{
+	text-align: center;
+	color: white;
+}
+
+
+body {
+	background-color:  red;
+}
+
+a:link {
+  color:            red;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+a:visited {
+  color:            red;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
+
+
+nav ul {
+  background-color:orange;
+  padding: 5px 0px;
+  margin: 10px 10px 0px 10px;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  padding: 0px 5px;
+  /*list-style-image: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);*/
+  /*url('http://www.stackoverflow.com/img/favicons-sprite16.png?v=880e84c320ad');*/
+}
+
+nav a:link {
+  color: red;
+  font-weight: bold;
+  border-bottom: none;
+}
+
+nav a:visited {
+  color: none;
+  font-weight: bold;
+  border-bottom: none;
+}
+
+.dropbtn {
+    background-color: red;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: orange}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+.tableContainer {
+  display: table;
+  border-spacing: 10px;
+}
+
+.tableRow {
+  display: table-row;
+}
+
+.tableCell {
+  vertical-align: top;
+  display: table-cell;
+}
+

@@ -1,0 +1,86 @@
+
+h1{
+  color: white;
+  
+}
+
+.button {
+  width: 180px;
+  height: 500px;
+  position: absolute;
+  top: 30px;
+  bottom: 0;
+  left: 80%;
+  right: 0;
+  margin: auto;
+}
+
+.btn {
+  text-decoration: none;
+  display: inline; 
+  margin-right: -4px;
+  height: 40px;
+  width: 150px;
+  background-color: black;
+  line-height: 40px;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.btn:before,
+.btn:after
+{
+transition: .8s ;
+}
+
+
+/* btn-1 */
+.btn-1:before {
+  content: '';
+  width: 150px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.btn-1:hover:before {
+  width: 140px;
+  height: 30px;
+  border: 5px solid white;
+}
+
+
+av ul {
+  background-color:#efe5d0;
+  padding: 5px 0px;
+  margin: 10px 10px 0px 10px;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  padding: 0px 5px;
+  /*list-style-image: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);*/
+  /*url('http://www.stackoverflow.com/img/favicons-sprite16.png?v=880e84c320ad');*/
+}
+
+nav a:link {
+  color: white;
+  font-weight: bold;
+  border-bottom: none;
+}
+
+nav a:visited {
+  color: white;
+  font-weight: bold;
+  border-bottom: none;
+}
+
+
+
+

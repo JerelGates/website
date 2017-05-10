@@ -1,0 +1,35 @@
+
+body{
+    background-color: black;
+    font-family: monospace, "mono-font";
+    color: lightgreen;
+    text-align: center;
+
+}
+
+
+
+#tableContainer {
+    display: table;
+    border-spacing: 10px;
+}
+
+#tableRow {
+    display: table-row;
+}
+
+#sidebar {
+  display: table-cell;
+  border: 80px green;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+}
+
+#bottom-footer {
+
+  color:            #228B22;
+  text-align:       center;
+  padding:          15px;
+  margin: 0px 10px 10px 10px;
+  font-size:        90%;
